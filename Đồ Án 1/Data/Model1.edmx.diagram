@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="16d7b84250a04b7d8b9873e2811f016a" Name="Diagram1">
+        <EntityTypeShape EntityType="DoAn1Model.BAN" Width="1.5" PointX="3.75" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoAn1Model.CHITIET_HDN" Width="1.5" PointX="5.25" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoAn1Model.CHITIET_HDX" Width="1.5" PointX="10.5" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoAn1Model.CHITIET_HOADON" Width="1.5" PointX="5.25" PointY="19.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoAn1Model.DANGNHAP" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoAn1Model.HOADON" Width="1.5" PointX="6" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoAn1Model.HoaDonNhap" Width="1.5" PointX="3" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoAn1Model.HoaDonXuat" Width="1.5" PointX="8.25" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoAn1Model.KHO" Width="1.5" PointX="3" PointY="16" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoAn1Model.KHO_NL" Width="1.5" PointX="5.25" PointY="16" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoAn1Model.MONAN" Width="1.5" PointX="3" PointY="19" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoAn1Model.NGUYENLIEU" Width="1.5" PointX="3" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoAn1Model.NHANVIEN" Width="1.5" PointX="0.75" PointY="8" IsExpanded="true" />
+        <AssociationConnector Association="DoAn1Model.FK_HOADON_BAN" ManuallyRouted="false" />
+        <AssociationConnector Association="DoAn1Model.FK_CHITIET_HDN_HoaDonNhap" ManuallyRouted="false" />
+        <AssociationConnector Association="DoAn1Model.FK_CHITIET_HDN_NGUYENLIEU" ManuallyRouted="false" />
+        <AssociationConnector Association="DoAn1Model.FK_CHITIET_HDX_HoaDonXuat" ManuallyRouted="false" />
+        <AssociationConnector Association="DoAn1Model.FK_CHITIET_HDX_NGUYENLIEU" ManuallyRouted="false" />
+        <AssociationConnector Association="DoAn1Model.FK_CHITIET_HOADON_MONAN" ManuallyRouted="false" />
+        <AssociationConnector Association="DoAn1Model.FK_HOADON_NHANVIEN" ManuallyRouted="false" />
+        <AssociationConnector Association="DoAn1Model.FK_HoaDonNhap_NHANVIEN" ManuallyRouted="false" />
+        <AssociationConnector Association="DoAn1Model.FK_HoaDonXuat_KHO" ManuallyRouted="false" />
+        <AssociationConnector Association="DoAn1Model.FK_HoaDonXuat_NHANVIEN" ManuallyRouted="false" />
+        <AssociationConnector Association="DoAn1Model.FK_HoaDonXuat_NHANVIEN1" ManuallyRouted="false" />
+        <AssociationConnector Association="DoAn1Model.FK_KHO_NHANVIEN" ManuallyRouted="false" />
+        <AssociationConnector Association="DoAn1Model.FK_KHO_NL_KHO" ManuallyRouted="false" />
+        <AssociationConnector Association="DoAn1Model.FK_KHO_NL_NGUYENLIEU" ManuallyRouted="false" />
+        <AssociationConnector Association="DoAn1Model.FK_MONAN_NHANVIEN" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

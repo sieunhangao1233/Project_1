@@ -1,0 +1,31 @@
+H:\Win From\Đồ Án 1\Đồ Án 1\bin\Debug\Đồ Án 1.exe.config
+H:\Win From\Đồ Án 1\Đồ Án 1\bin\Debug\Đồ Án 1.exe
+H:\Win From\Đồ Án 1\Đồ Án 1\bin\Debug\Đồ Án 1.pdb
+H:\Win From\Đồ Án 1\Đồ Án 1\obj\Debug\Đồ Án 1.csproj.AssemblyReference.cache
+H:\Win From\Đồ Án 1\Đồ Án 1\obj\Debug\Đồ_Án_1.Fdangki.resources
+H:\Win From\Đồ Án 1\Đồ Án 1\obj\Debug\Đồ_Án_1.Properties.Resources.resources
+H:\Win From\Đồ Án 1\Đồ Án 1\obj\Debug\Đồ_Án_1.View.Nhân_Viên.resources
+H:\Win From\Đồ Án 1\Đồ Án 1\obj\Debug\Đồ_Án_1.View.Quản_lý_chức_năng.resources
+H:\Win From\Đồ Án 1\Đồ Án 1\obj\Debug\Đồ_Án_1.View.Đăng_kí.resources
+H:\Win From\Đồ Án 1\Đồ Án 1\obj\Debug\Đồ Án 1.csproj.GenerateResource.cache
+H:\Win From\Đồ Án 1\Đồ Án 1\obj\Debug\Đồ Án 1.csproj.CoreCompileInputs.cache
+H:\Win From\Đồ Án 1\Đồ Án 1\obj\Debug\Đồ Án 1.exe
+H:\Win From\Đồ Án 1\Đồ Án 1\obj\Debug\Đồ Án 1.pdb
+H:\Win From\Đồ Án 1\Đồ Án 1\bin\Debug\EntityFramework.xml
+H:\Win From\Đồ Án 1\Đồ Án 1\bin\Debug\EntityFramework.SqlServer.xml
+H:\Win From\Đồ Án 1\Đồ Án 1\obj\Debug\Đồ_Án_1.View.HoaDon.resources
+H:\Win From\Đồ Án 1\Đồ Án 1\obj\Debug\Đồ_Án_1.View.MonAn.resources
+H:\Win From\Đồ Án 1\Đồ Án 1\obj\Debug\Đồ Án 1.csproj.CopyComplete
+H:\Win From\Đồ Án 1\Đồ Án 1\obj\Debug\Đồ_Án_1.View.HoaDonNhap.resources
+H:\Win From\Đồ Án 1\Đồ Án 1\obj\Debug\Đồ_Án_1.View.Kho.resources
+H:\Win From\Đồ Án 1\Đồ Án 1\obj\Debug\Đồ_Án_1.View.NguynLieu.resources
+H:\Win From\Đồ Án 1\Đồ Án 1\obj\Debug\Đồ_Án_1.View.CTkho.resources
+H:\Win From\Đồ Án 1\Đồ Án 1\obj\Debug\Đồ_Án_1.View.ThongKE.resources
+H:\Win From\Đồ Án 1\Đồ Án 1\obj\Debug\Đồ_Án_1.View.THONGKEQUAN.resources
+H:\Win From\Đồ Án 1\Đồ Án 1\obj\Debug\Đồ_Án_1.View.ThongKEhoaDon.resources
+H:\Win From\Đồ Án 1\Đồ Án 1\obj\Debug\Đồ_Án_1.View.BAN_AN.resources
+H:\Win From\Đồ Án 1\Đồ Án 1\obj\Debug\Đồ_Án_1.View.HoaDonXuat_View.resources
+H:\Win From\Đồ Án 1\Đồ Án 1\obj\Debug\Đồ_Án_1.View.PhieuThanhToanHoaDon.resources
+H:\Win From\Đồ Án 1\Đồ Án 1\bin\Debug\EntityFramework.dll
+H:\Win From\Đồ Án 1\Đồ Án 1\bin\Debug\EntityFramework.SqlServer.dll
+H:\Win From\Đồ Án 1\Đồ Án 1\obj\Debug\Đồ_Án_1.View.DanhSachMonAn.resources

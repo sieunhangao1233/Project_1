@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DoAn1ModelStoreContainer" CdmEntityContainer="Entities1">
+    <EntitySetMapping Name="BANs">
+      <EntityTypeMapping TypeName="DoAn1Model.BAN">
+        <MappingFragment StoreEntitySet="BAN">
+          <ScalarProperty Name="BanID" ColumnName="BanID" />
+          <ScalarProperty Name="LoaiBan" ColumnName="LoaiBan" />
+          <ScalarProperty Name="Tinhtrang" ColumnName="Tinhtrang" />
+          <ScalarProperty Name="SoLuong" ColumnName="SoLuong" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CHITIET_HDN">
+      <EntityTypeMapping TypeName="DoAn1Model.CHITIET_HDN">
+        <MappingFragment StoreEntitySet="CHITIET_HDN">
+          <ScalarProperty Name="HoaDonNhapID" ColumnName="HoaDonNhapID" />
+          <ScalarProperty Name="nguyenlieuID" ColumnName="nguyenlieuID" />
+          <ScalarProperty Name="Soluong" ColumnName="Soluong" />
+          <ScalarProperty Name="DonGia" ColumnName="DonGia" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CHITIET_HDX">
+      <EntityTypeMapping TypeName="DoAn1Model.CHITIET_HDX">
+        <MappingFragment StoreEntitySet="CHITIET_HDX">
+          <ScalarProperty Name="HoaDonXuatID" ColumnName="HoaDonXuatID" />
+          <ScalarProperty Name="nguyenlieuID" ColumnName="nguyenlieuID" />
+          <ScalarProperty Name="SoLuong" ColumnName="SoLuong" />
+          <ScalarProperty Name="Dongia" ColumnName="Dongia" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CHITIET_HOADON">
+      <EntityTypeMapping TypeName="DoAn1Model.CHITIET_HOADON">
+        <MappingFragment StoreEntitySet="CHITIET_HOADON">
+          <ScalarProperty Name="HoaDonID" ColumnName="HoaDonID" />
+          <ScalarProperty Name="monanID" ColumnName="monanID" />
+          <ScalarProperty Name="Dongia" ColumnName="Dongia" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DANGNHAPs">
+      <EntityTypeMapping TypeName="DoAn1Model.DANGNHAP">
+        <MappingFragment StoreEntitySet="DANGNHAP">
+          <ScalarProperty Name="TaiKhoan" ColumnName="TaiKhoan" />
+          <ScalarProperty Name="matkhau" ColumnName="matkhau" />
+          <ScalarProperty Name="nhaplaimatkhau" ColumnName="nhaplaimatkhau" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HOADONs">
+      <EntityTypeMapping TypeName="DoAn1Model.HOADON">
+        <MappingFragment StoreEntitySet="HOADON">
+          <ScalarProperty Name="HoaDonID" ColumnName="HoaDonID" />
+          <ScalarProperty Name="NhanVienID" ColumnName="NhanVienID" />
+          <ScalarProperty Name="Giamgia" ColumnName="Giamgia" />
+          <ScalarProperty Name="BanID" ColumnName="BanID" />
+          <ScalarProperty Name="TrangThai" ColumnName="TrangThai" />
+          <ScalarProperty Name="Tongtien" ColumnName="Tongtien" />
+          <ScalarProperty Name="NgayTao" ColumnName="NgayTao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HoaDonNhaps">
+      <EntityTypeMapping TypeName="DoAn1Model.HoaDonNhap">
+        <MappingFragment StoreEntitySet="HoaDonNhap">
+          <ScalarProperty Name="HoaDonNhapID" ColumnName="HoaDonNhapID" />
+          <ScalarProperty Name="NhanVienID" ColumnName="NhanVienID" />
+          <ScalarProperty Name="KhoID" ColumnName="KhoID" />
+          <ScalarProperty Name="Trangthai" ColumnName="Trangthai" />
+          <ScalarProperty Name="Tongtien" ColumnName="Tongtien" />
+          <ScalarProperty Name="Ngaynhap" ColumnName="Ngaynhap" />
+          <ScalarProperty Name="Ngaynhan" ColumnName="Ngaynhan" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HoaDonXuats">
+      <EntityTypeMapping TypeName="DoAn1Model.HoaDonXuat">
+        <MappingFragment StoreEntitySet="HoaDonXuat">
+          <ScalarProperty Name="HoaDonXuatID" ColumnName="HoaDonXuatID" />
+          <ScalarProperty Name="NhanVien_Xuat" ColumnName="NhanVien_Xuat" />
+          <ScalarProperty Name="NhanVien_Nhan" ColumnName="NhanVien_Nhan" />
+          <ScalarProperty Name="KhoID" ColumnName="KhoID" />
+          <ScalarProperty Name="Ngayxuat" ColumnName="Ngayxuat" />
+          <ScalarProperty Name="Ngaynhan" ColumnName="Ngaynhan" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KHOes">
+      <EntityTypeMapping TypeName="DoAn1Model.KHO">
+        <MappingFragment StoreEntitySet="KHO">
+          <ScalarProperty Name="KhoID" ColumnName="KhoID" />
+          <ScalarProperty Name="TenKho" ColumnName="TenKho" />
+          <ScalarProperty Name="NhanVienID_QL" ColumnName="NhanVienID_QL" />
+          <ScalarProperty Name="Trangthai" ColumnName="Trangthai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KHO_NL">
+      <EntityTypeMapping TypeName="DoAn1Model.KHO_NL">
+        <MappingFragment StoreEntitySet="KHO_NL">
+          <ScalarProperty Name="KhoID" ColumnName="KhoID" />
+          <ScalarProperty Name="nguyenlieuID" ColumnName="nguyenlieuID" />
+          <ScalarProperty Name="SoLuong" ColumnName="SoLuong" />
+          <ScalarProperty Name="GhiChu" ColumnName="GhiChu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MONANs">
+      <EntityTypeMapping TypeName="DoAn1Model.MONAN">
+        <MappingFragment StoreEntitySet="MONAN">
+          <ScalarProperty Name="monanID" ColumnName="monanID" />
+          <ScalarProperty Name="TenMon" ColumnName="TenMon" />
+          <ScalarProperty Name="LoaiMon" ColumnName="LoaiMon" />
+          <ScalarProperty Name="DonGia" ColumnName="DonGia" />
+          <ScalarProperty Name="TrangThai" ColumnName="TrangThai" />
+          <ScalarProperty Name="NhanVienID" ColumnName="NhanVienID" />
+          <ScalarProperty Name="Ngaytao" ColumnName="Ngaytao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NGUYENLIEUx">
+      <EntityTypeMapping TypeName="DoAn1Model.NGUYENLIEU">
+        <MappingFragment StoreEntitySet="NGUYENLIEU">
+          <ScalarProperty Name="nguyenieuID" ColumnName="nguyenieuID" />
+          <ScalarProperty Name="tenNL" ColumnName="tenNL" />
+          <ScalarProperty Name="DonGia" ColumnName="DonGia" />
+          <ScalarProperty Name="LoaiNL" ColumnName="LoaiNL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NHANVIENs">
+      <EntityTypeMapping TypeName="DoAn1Model.NHANVIEN">
+        <MappingFragment StoreEntitySet="NHANVIEN">
+          <ScalarProperty Name="NhanVienID" ColumnName="NhanVienID" />
+          <ScalarProperty Name="Hoten" ColumnName="Hoten" />
+          <ScalarProperty Name="Gioitinh" ColumnName="Gioitinh" />
+          <ScalarProperty Name="Ngaysinh" ColumnName="Ngaysinh" />
+          <ScalarProperty Name="Chucvu" ColumnName="Chucvu" />
+          <ScalarProperty Name="Quequan" ColumnName="Quequan" />
+          <ScalarProperty Name="Sdt" ColumnName="Sdt" />
+          <ScalarProperty Name="CCCD" ColumnName="CCCD" />
+          <ScalarProperty Name="NgayLam" ColumnName="NgayLam" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
